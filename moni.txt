@@ -1,7 +1,0 @@
-
-
-///ocultar archivos dentro de archivos
-cat secreto.zip> imagen.jpg
-
-rm secreto.*
-unzip imagen.jpg
