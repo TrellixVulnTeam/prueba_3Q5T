@@ -1,6 +1,6 @@
 const express = require('express');
+const exphbs = require('express-handlebars');
 const path = require('path');
-const { extname } = require('path');
 //INICIALIZACIONES
 
 const app =express();
@@ -9,7 +9,6 @@ const app =express();
 
 app.set('port' , process.env.PORT || 4000);
 app.set('views', path.join(__dirname,'views'));
-
 
 //MIDDLEWARES: Funciones que se ejecuntan despues de las peticiones
 
